@@ -1,0 +1,31 @@
+.principal{
+    width: 400px;
+    height: 400px;
+    
+}
+.cuadro{
+    width:100px;
+    height:100px;
+    float: left;
+    border:2px solid rgb(85, 83, 83);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 65px;
+}
+  .azul{
+    background-color: rgba(0, 0, 255, 0.342);  
+  }
+  .verde{
+    background-color: rgba(0, 128, 0, 0.342);
+  }
+  .rojo{
+    background-color: rgba(255, 0, 0, 0.342);
+  }
+  .amarillo{
+    background-color: rgba(255, 255, 0, 0.342);  
+  }
+  .negro{
+      background-color: white;
+      color: white  ;
+  }
+  
