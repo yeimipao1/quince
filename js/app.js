@@ -1,4 +1,4 @@
-document.body.onload=()=>{
+const ini =()=>{
     document.getElementById("fondo").innerHTML=` <div id="1" class="cuadro azul">1</div>
     <div id="2" class="cuadro azul">2</div>
     <div id="3" class="cuadro azul">3</div>
@@ -17,6 +17,7 @@ document.body.onload=()=>{
     <div id="16" class="cuadro negro">16</div>`;
 
 };
+ini();
 //Creamos las dos matrices una ordenada y la otra que va a desordenarse al iniciar el juego
 let quince = [
     [1,2,3,4],
