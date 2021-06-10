@@ -154,3 +154,19 @@ function chequearSiGano(){
         alert("Che ganaste!!!")
       
       }
+      let tiempo = 0;
+      let segundos=0, minutos=0, horas=0;
+      function temporizador(){
+        if(segundos >=0 && segundos <= 60){
+          segundos = tiempo++;
+        } 
+        if(segundos == 60){
+          minutos++;
+          tiempo=0;
+          segundos = 0;
+        }
+        document.getElementById("tiempo").innerHTML=`
+          <h3>${horas} ${minutos} ${segundos}</h3>
+        `;
+      }
+      setInterval(temporizador,1000);
